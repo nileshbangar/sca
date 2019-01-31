@@ -1,0 +1,130 @@
+{
+    "name": "AnnexcloudExtension",
+    "fantasyName": "AnnexcloudExtension",
+    "vendor": "Annexcloud",
+    "version": "2.0.7",
+    "type": "extension",
+    "target": "SCA",
+    "description": "Annex Modules",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        }
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/QA/Templates/annex_qa.tpl",
+                    "Modules/RNR/Templates/annex_rnr.tpl",
+                    "Modules/SocialLogin/Templates/sociallogin.tpl",
+                    "Modules/Loyalty/Templates/loyalty.tpl",
+                    "Modules/Checkout/Templates/checkout.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/QA/Templates/annex_qa.tpl",
+                    "Modules/RNR/Templates/annex_rnr.tpl",
+                    "Modules/SocialLogin/Templates/sociallogin.tpl",
+                    "Modules/Loyalty/Templates/loyalty.tpl",
+                    "Modules/Checkout/Templates/checkout.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/QA/Templates/annex_qa.tpl",
+                    "Modules/RNR/Templates/annex_rnr.tpl",
+                    "Modules/SocialLogin/Templates/sociallogin.tpl",
+                    "Modules/Loyalty/Templates/loyalty.tpl",
+                    "Modules/Checkout/Templates/checkout.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/Annexcloud/JavaScript/Annexcloud.AnnexcloudExtension.Prod.js",
+            "checkout": "Modules/Annexcloud/JavaScript/Annexcloud.AnnexcloudExtension.Prod.js",
+            "myaccount": "Modules/Annexcloud/JavaScript/Annexcloud.AnnexcloudExtension.Prod.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Annexcloud/JavaScript/Annexcloud.AnnexcloudExtension.Prod.js",
+                    "Modules/Annexcloud/JavaScript/AnnexServices.Model.js",
+                    "Modules/QA/JavaScript/QA.Model.js",
+                    "Modules/QA/JavaScript/QA.ScriptLoaderHelper.js",
+                    "Modules/QA/JavaScript/QA.View.js",
+                    "Modules/RNR/JavaScript/RNR.Model.js",
+                    "Modules/RNR/JavaScript/RNR.ScriptLoaderHelper.js",
+                    "Modules/RNR/JavaScript/RNR.View.js",
+                    "Modules/SocialLogin/JavaScript/SocialLogin.Model.js",
+                    "Modules/SocialLogin/JavaScript/SocialLogin.ScriptLoaderHelper.js",
+                    "Modules/SocialLogin/JavaScript/SocialLogin.View.js",
+                    "Modules/Loyalty/JavaScript/Loyalty.View.js",
+                    "Modules/Loyalty/JavaScript/Loyalty.Router.js",
+                    "Modules/Loyalty/JavaScript/loyalty.View.js",
+                    "Modules/Loyalty/JavaScript/Loyalty.ScriptLoaderHelper.js",
+                    "Modules/Loyalty/JavaScript/Loyalty.Model.js",
+                    "Modules/Checkout/JavaScript/Checkout.Model.js",
+                    "Modules/Checkout/JavaScript/Checkout.ScriptLoaderHelper.js",
+                    "Modules/Checkout/JavaScript/Checkout.View.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/Annexcloud/JavaScript/Annexcloud.AnnexcloudExtension.Prod.js",
+                    "Modules/Annexcloud/JavaScript/AnnexServices.Model.js",
+                    "Modules/QA/JavaScript/QA.Model.js",
+                    "Modules/QA/JavaScript/QA.ScriptLoaderHelper.js",
+                    "Modules/QA/JavaScript/QA.View.js",
+                    "Modules/RNR/JavaScript/RNR.Model.js",
+                    "Modules/RNR/JavaScript/RNR.ScriptLoaderHelper.js",
+                    "Modules/RNR/JavaScript/RNR.View.js",
+                    "Modules/SocialLogin/JavaScript/SocialLogin.Model.js",
+                    "Modules/SocialLogin/JavaScript/SocialLogin.ScriptLoaderHelper.js",
+                    "Modules/SocialLogin/JavaScript/SocialLogin.View.js",
+                    "Modules/Loyalty/JavaScript/Loyalty.View.js",
+                    "Modules/Loyalty/JavaScript/Loyalty.Router.js",
+                    "Modules/Loyalty/JavaScript/loyalty.View.js",
+                    "Modules/Loyalty/JavaScript/Loyalty.ScriptLoaderHelper.js",
+                    "Modules/Loyalty/JavaScript/Loyalty.Model.js",
+                    "Modules/Checkout/JavaScript/Checkout.Model.js",
+                    "Modules/Checkout/JavaScript/Rewardcode.Model.js",
+                    "Modules/Checkout/JavaScript/Checkout.ScriptLoaderHelper.js",
+                    "Modules/Checkout/JavaScript/Checkout.View.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/Annexcloud/JavaScript/Annexcloud.AnnexcloudExtension.Prod.js",
+                    "Modules/Annexcloud/JavaScript/AnnexServices.Model.js",
+                    "Modules/QA/JavaScript/QA.Model.js",
+                    "Modules/QA/JavaScript/QA.ScriptLoaderHelper.js",
+                    "Modules/QA/JavaScript/QA.View.js",
+                    "Modules/RNR/JavaScript/RNR.Model.js",
+                    "Modules/RNR/JavaScript/RNR.ScriptLoaderHelper.js",
+                    "Modules/RNR/JavaScript/RNR.View.js",
+                    "Modules/SocialLogin/JavaScript/SocialLogin.Model.js",
+                    "Modules/SocialLogin/JavaScript/SocialLogin.ScriptLoaderHelper.js",
+                    "Modules/SocialLogin/JavaScript/SocialLogin.View.js",
+                    "Modules/Loyalty/JavaScript/Loyalty.View.js",
+                    "Modules/Loyalty/JavaScript/Loyalty.Router.js",
+                    "Modules/Loyalty/JavaScript/loyalty.View.js",
+                    "Modules/Loyalty/JavaScript/Loyalty.ScriptLoaderHelper.js",
+                    "Modules/Loyalty/JavaScript/Loyalty.Model.js",
+                    "Modules/Checkout/JavaScript/Rewardcode.Model.js",
+                    "Modules/Checkout/JavaScript/Checkout.Model.js",
+                    "Modules/Checkout/JavaScript/Checkout.ScriptLoaderHelper.js",
+                    "Modules/Checkout/JavaScript/Checkout.View.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace\\AnnexcloudExtension"
+}
